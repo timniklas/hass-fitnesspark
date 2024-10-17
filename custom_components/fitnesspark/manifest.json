@@ -1,0 +1,10 @@
+{
+  "domain": "fitnesspark",
+  "name": "Fitness Park",
+  "codeowners": ["@timniklas"],
+  "config_flow": true,
+  "documentation": "https://github.com/timniklas/hacs_fitnesspark",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/timniklas/hacs_fitnesspark/issues",
+  "version": "0.0.0"
+}

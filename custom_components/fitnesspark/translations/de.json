@@ -1,9 +1,9 @@
 {
-    "title": "Wellyou Fitness",
+    "title": "Fitness Park",
     "config": {
         "step": {
             "user": {
-                "title": "Wellyou Fitness Setup",
+                "title": "Fitness Park Setup",
                 "description": "Wähle ein Studio in deiner Nähe aus.",
                 "data": {
                     "id": "Studio"
