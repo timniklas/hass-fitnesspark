@@ -1,10 +1,10 @@
 # Fitness Park Integration for Home Assistant 🏠
 
-[![GitHub Release](https://img.shields.io/github/v/release/timniklas/hacs_fitnesspark?sort=semver&style=for-the-badge&color=green)](https://github.com/timniklas/hacs_fitnesspark/releases/)
-[![GitHub Release Date](https://img.shields.io/github/release-date/timniklas/hacs_fitnesspark?style=for-the-badge&color=green)](https://github.com/timniklas/hacs_fitnesspark/releases/)
-![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/timniklas/hacs_fitnesspark/latest/total?style=for-the-badge&label=Downloads%20latest%20Release)
+[![GitHub Release](https://img.shields.io/github/v/release/timniklas/hass-fitnesspark?sort=semver&style=for-the-badge&color=green)](https://github.com/timniklas/hass-fitnesspark/releases/)
+[![GitHub Release Date](https://img.shields.io/github/release-date/timniklas/hass-fitnesspark?style=for-the-badge&color=green)](https://github.com/timniklas/hass-fitnesspark/releases/)
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/timniklas/hass-fitnesspark/latest/total?style=for-the-badge&label=Downloads%20latest%20Release)
 ![HA Analytics](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fanalytics.home-assistant.io%2Fcustom_integrations.json&query=%24.fitnesspark.total&style=for-the-badge&label=Active%20Installations&color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/timniklas/hacs_fitnesspark?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/timniklas/hass-fitnesspark?style=for-the-badge)
 [![hacs](https://img.shields.io/badge/HACS-Integration-blue.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 ## Overview
@@ -22,7 +22,7 @@ This integration is available in HACS (Home Assistant Community Store).
 3. Go to any of the sections (integrations, frontend, automation).
 4. Click on the 3 dots in the top right corner.
 5. Select "Custom repositories"
-6. Add following URL to the repository `https://github.com/timniklas/hacs_fitnesspark`.
+6. Add following URL to the repository `https://github.com/timniklas/hass-fitnesspark`.
 7. Select Integration as category.
 8. Click the "ADD" button
 9. Search for "Fitness Park"
@@ -30,12 +30,12 @@ This integration is available in HACS (Home Assistant Community Store).
 
 ### Manual
 
-To install this integration manually you have to download [_fitnesspark.zip_](https://github.com/timniklas/hacs_fitnesspark/releases/latest/) and extract its contents to `config/custom_components/fitnesspark` directory:
+To install this integration manually you have to download [_fitnesspark.zip_](https://github.com/timniklas/hass-fitnesspark/releases/latest/) and extract its contents to `config/custom_components/fitnesspark` directory:
 
 ```bash
 mkdir -p custom_components/fitnesspark
 cd custom_components/fitnesspark
-wget https://github.com/timniklas/hacs_fitx/releases/latest/download/fitnesspark.zip
+wget https://github.com/timniklas/hass-fitx/releases/latest/download/fitnesspark.zip
 unzip fitnesspark.zip
 rm fitnesspark.zip
 ```
